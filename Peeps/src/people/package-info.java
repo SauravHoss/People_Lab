@@ -1,5 +1,0 @@
-
-/**
- * @author Hoss
- */
-package people;
