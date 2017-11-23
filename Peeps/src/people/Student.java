@@ -2,7 +2,7 @@ package people;
 
 public class Student extends Person
 {
-	private double GPA;
+	private static double GPA;
 	private int gradelevel;
 	private String Major;
 	
@@ -14,7 +14,7 @@ public class Student extends Person
 		Major = major;
 	}
 
-	public double getGPA() 
+	public static double getGPA() 
 	{
 		return GPA;
 	}
@@ -42,6 +42,14 @@ public class Student extends Person
 	public void setMajor(String major) 
 	{
 		Major = major;
-	} 
+	}
+
+	@Override
+	public String toString() {
+		return "Student [getFirstName()=" + getFirstName() + ", getFamilyName()=" + getFamilyName()  + ", toString()=" + super.toString() + ", getClass()="
+				+ getClass() + ", hashCode()=" + hashCode() + "]";
+	}
+
+	
 	
 }

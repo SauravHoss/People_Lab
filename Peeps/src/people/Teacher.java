@@ -1,10 +1,11 @@
 package people;
 
-public class Teacher extends Person
+public abstract class Teacher extends Person
 {
-	private String subject;
+	private static String subject;
 	private String title;
 	
+	@SuppressWarnings("static-access")
 	public Teacher(String firstName, String familyName, int age, String gender, String subject, String title)
 	{
 		super(firstName, familyName, age, gender);
@@ -12,11 +13,12 @@ public class Teacher extends Person
 		this.title = title;
 	}
 
-	public String getSubject()
+	public static String getSubject()
 	{
 		return subject;
 	}
 
+	@SuppressWarnings("static-access")
 	public void setSubject(String subject)
 	{
 		this.subject = subject;
@@ -31,6 +33,14 @@ public class Teacher extends Person
 	{
 		this.title = title;
 	}
+
+	@Override
+	public String toString() {
+		return "Teacher [title=" + title + ", getFamilyName()=" + getFamilyName()
+				+ ", toString()=" + super.toString()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
+	}
+	
 	
 
 }
