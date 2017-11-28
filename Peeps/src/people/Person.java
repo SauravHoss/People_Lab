@@ -1,7 +1,7 @@
 package people;
 
 public abstract class Person
-{
+{ 
 	private String firstName;
 	private String familyName;
 	private int age;

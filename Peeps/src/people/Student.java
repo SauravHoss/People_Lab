@@ -16,7 +16,7 @@ public class Student extends Person
 
 	public static double getGPA() 
 	{
-		return GPA;
+		return GPA; 
 	}
 
 	public void setGPA(double gPA) 

@@ -3,7 +3,7 @@ package people;
 public abstract class Teacher extends Person
 {
 	private static String subject;
-	private String title;
+	private String title; 
 	
 	@SuppressWarnings("static-access")
 	public Teacher(String firstName, String familyName, int age, String gender, String subject, String title)
@@ -15,7 +15,7 @@ public abstract class Teacher extends Person
 
 	public static String getSubject()
 	{
-		return subject;
+		return subject; 
 	}
 
 	@SuppressWarnings("static-access")

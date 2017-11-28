@@ -2,7 +2,7 @@ package people;
 
 import java.util.Arrays;
 
-public class Classroom 
+public class Classroom  
 {
 	Person[] students;
 	Person teacher;

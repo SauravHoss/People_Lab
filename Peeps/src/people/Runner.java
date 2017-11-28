@@ -14,5 +14,5 @@ public class Runner
 									+ "Husher" + "Jensen" + "Lowell"+ "Mayfair" + "Mercier" + "Moreau" + "Ramirez" + "Rye" + "Voge"
 									+ "Willoughby"};	
 	static String [] title = {"Mr." + "Mrs." + "Dr." + "Miss"};
-	static String [] major = {"LAS" + "BioSci" + "Chem" + "Electrical" + "Mechanical" + "Industrial" + "Media" + "College Prep" + ""};
+	static String [] major = {"LAS" + "BioSci" + "Chem" + "Electrical" + "Mechanical" + "Industrial" + "Media" + "College Prep" + ""}; 
 }
