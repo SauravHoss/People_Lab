@@ -9,9 +9,9 @@ public class Student extends Person
 	public Student(String firstName, String familyName, int age, String gender, double gPA, int gradelevel, String major) 
 	{
 		super(firstName, familyName, age, gender);
-		GPA = gPA;
+		Student.GPA = gPA;
 		this.gradelevel = gradelevel;
-		Major = major;
+		this.Major = major;
 	}
 
 	public static double getGPA() 
@@ -50,6 +50,5 @@ public class Student extends Person
 				+ getClass() + ", hashCode()=" + hashCode() + "]";
 	}
 
-	
 	
 }

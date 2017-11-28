@@ -41,6 +41,5 @@ public abstract class Teacher extends Person
 				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
 	}
 	
-	
 
 }
