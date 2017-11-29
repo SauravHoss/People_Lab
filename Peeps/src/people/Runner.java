@@ -4,7 +4,10 @@ public class Runner
 {
 	public static void main(String[] args) 
 	{
-
+		String students [] = new String[10];
+		Person Teacher;
+		System.out.println(students);
+		
 	}
 
 
@@ -15,4 +18,10 @@ public class Runner
 									+ "Willoughby"};	
 	static String [] title = {"Mr." + "Mrs." + "Dr." + "Miss"};
 	static String [] major = {"LAS" + "BioSci" + "Chem" + "Electrical" + "Mechanical" + "Industrial" + "Media" + "College Prep" + ""}; 
+
+public String randomStudent() 
+	{
+	return Student.class.getName() + Student.getGPA();	
+	}
+
 }
