@@ -4,13 +4,13 @@ public class Runner
 {
 	public static void main(String[] args) 
 	{
-		String students [] = new String[10];
+		String students [] = new String[32];
 		Person Teacher = new Teacher(firstNames, familyNames, title);
-		Classroom classAverage = new classAverage;
+		Classroom classroomv2 = new Classroom(classAverage);
 		
 		System.out.println(students);
 		System.out.println(Teacher);
-		System.out.println(classAverage);
+		System.out.println(classroomv2.classAverage);
 		
 	}
 
