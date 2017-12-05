@@ -4,13 +4,11 @@ public class Runner
 {
 	public static void main(String[] args) 
 	{
-		String students [] = new String[32];
-		Person Teacher = new Teacher(firstNames, familyNames, title);
-		Classroom classroomv2 = new Classroom(classAverage);
 		
+		Classroom XClassroomX = new Classroom(students, teacher);
 		System.out.println(students);
-		System.out.println(Teacher);
-		System.out.println(classroomv2.classAverage);
+		System.out.println(teacher);
+//		System.out.println(classAverage);
 		
 	}
 
@@ -22,10 +20,15 @@ public class Runner
 									+ "Willoughby"};	
 	static String [] title = {"Mr." + "Mrs." + "Dr." + "Miss"};
 	static String [] major = {"LAS" + "BioSci" + "Chem" + "Electrical" + "Mechanical" + "Industrial" + "Media" + "College Prep" + ""}; 
-
-public String randomStudent() 
+	private static Person[] students = new Person[35];
+	private static Person teacher;
+	
+public static String randomStudent() 
 	{
 	return Student.class.getName() + Student.getGPA();	
 	}
-
+public static String randomTeacher()
+{
+	return Teacher.class.getName() + Teacher.getTitle();
+}
 }
