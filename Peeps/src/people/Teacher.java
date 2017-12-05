@@ -24,7 +24,7 @@ public abstract class Teacher extends Person
 		this.subject = subject;
 	}
 
-	public String getTitle()
+	public static String getTitle()
 	{
 		return title;
 	}
