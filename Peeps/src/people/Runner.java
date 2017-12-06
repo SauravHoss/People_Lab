@@ -9,7 +9,7 @@ public class Runner
 		Classroom Classrooms = new Classroom(students, teacher);
 		System.out.println(students);
 		System.out.println(teacher);
-				
+		System.out.println(Classroom.classAverage);
 	}
 
 

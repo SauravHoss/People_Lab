@@ -39,7 +39,7 @@ public class Student extends Person
 		return Major;
 	}
 
-	public void setSubject(String major) 
+	public void setMajor(String major) 
 	{
 		Major = major;
 	}
