@@ -6,12 +6,12 @@ public class Student extends Person
 	private int gradelevel;
 	private String Major;
 	
-	public Student(String firstName, String familyName, int age, String gender, double gPA, int gradelevel, String major) 
+	public Student(String firstName, String familyName, int age, String gender, double gPA, int gradelevel, String Major) 
 	{
 		super(firstName, familyName, age, gender);
 		Student.GPA = gPA;
 		this.gradelevel = gradelevel;
-		this.Major = major;
+		this.Major = Major;
 	}
 
 	public static double getGPA() 
@@ -39,7 +39,7 @@ public class Student extends Person
 		return Major;
 	}
 
-	public void setMajor(String major) 
+	public void setSubject(String major) 
 	{
 		Major = major;
 	}

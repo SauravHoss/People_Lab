@@ -1,27 +1,27 @@
 package people;
 
-public abstract class Teacher extends Person
+public class Teacher extends Person
 {
-	private static String subject;
+	private static String Subject;
 	private static String title; 
 	
 	@SuppressWarnings("static-access")
 	public Teacher(String firstName, String familyName, int age, String gender, String subject, String title)
 	{
 		super(firstName, familyName, age, gender);
-		this.subject = subject;
+		this.Subject = subject;
 		this.title = title;
 	}
 
 	public static String getSubject()
 	{
-		return subject; 
+		return Subject; 
 	}
 
 	@SuppressWarnings("static-access")
 	public void setSubject(String subject)
 	{
-		this.subject = subject;
+		this.Subject = subject;
 	}
 
 	public static String getTitle()
@@ -29,6 +29,7 @@ public abstract class Teacher extends Person
 		return title;
 	}
 
+	@SuppressWarnings("static-access")
 	public void setTitle(String title)
 	{
 		this.title = title;

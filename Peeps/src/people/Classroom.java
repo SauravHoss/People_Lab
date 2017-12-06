@@ -26,17 +26,17 @@ public class Classroom
 		return (avggpa/students.length);
 	}
 	
-	public String getSubject() 
+	public String getMajor() 
 	{
-		return Teacher.getSubject();
+		return Teacher.getMajor();
 	}
 	
 
 	@Override
 	public String toString() 
 	{
-		return "Classroom [students=" + Arrays.toString(students) + ", teacher=" + teacher + ", getSubject()="
-				+ getSubject() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+		return "Classroom [students=" + Arrays.toString(students) + ", teacher=" + teacher + ", getMajor()="
+				+ getMajor() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
 				+ super.toString() + "]";
 	}
 	
